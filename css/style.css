@@ -1,0 +1,682 @@
+body{
+  background-color: #ffffff;
+}
+wrapper{
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%; 
+  position: fixed;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+ 
+:target {
+  scroll-margin-top: .8em;
+}
+
+a:link{
+  text-decoration: none;
+  color: #000000;
+}
+a {
+  color: #000;
+}
+a:visited {
+   color: rgb(0, 0, 0);
+}
+a:hover {
+   color: #000;
+}
+a:active {
+   color: #000;
+}
+                   /* TOPO */
+navbar{
+height: 9%;
+width: 80%;
+position: fixed;
+top:  5%;
+left: 10%;
+border-radius: 12px;
+border-width: 0px;
+border-style: solid;
+background-color: #36ad54fa;
+z-index: 1;
+}
+
+.subtopo{
+  top: 60%;
+  left: 0%;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}
+
+.grupo{
+  top:  -20%;
+  left: 0%;
+  position: relative;
+}
+
+.projeto{
+  top: 150%;
+  left: 0%;
+  height: 80%;
+  width: 100%;
+  position: absolute;
+}
+
+.logo{
+  font-family: "BebasNeue-Regular";
+  font-style: oblique;
+  font-weight: bold;
+  font-variant: normal;
+  font-size: 30px;
+  position: absolute;
+  top:  2%;
+  left: 2%;
+}
+
+.loginho{
+  width: 9%;
+  height: 100%;
+  position: absolute;
+  top:  10%;
+  left: 1%;
+}
+
+#button-project-1 {
+  padding: 14px 30px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  background-color:#36ad54b2;
+  border: 0px;
+  position: relative;
+  top: 5%;
+  left: 45%;
+
+  font-family: "Audiowide", sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+  font-variant: normal;
+  font-size: 20px;
+  
+  }
+  
+  #button-project-1:hover {
+    padding: 14px 40px; 
+    border-radius: 12px;
+    background-color: #ddd; 
+    border: 0px;
+
+    font-family: "Audiowide", sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-variant: normal;
+    font-size: 20px;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    top: 5%;
+    left: 80%;
+    
+  }
+  .dropdown .dropbtn {
+    padding: 14px 30px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    background-color: #36ad54b2;
+    border: 0px;
+  
+
+    font-family: "Audiowide", sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-variant: normal;
+    font-size: 20px;/* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    padding: 14px 40px; 
+  }
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #36ad54b2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+    font-family: "Audiowide", sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-variant: normal;
+
+    
+  }
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }      
+
+                           /* CONTEUDO */
+
+
+    h1{
+      position: relative;
+      top: 220px;
+      left: 18%;
+      color: #000000;
+      font-family: TacticSans-Blk, sans-serif;
+      font-style: oblique;
+      font-weight: bold;
+      font-variant: normal;
+      font-size: 30px;
+      height: 50px;
+      width: 80%;
+    }
+
+    h2{
+      position: relative;
+      top:  700px;
+      left: 48%;
+
+      font-family: "Audiowide", sans-serif;
+      font-style: oblique;
+      font-weight: bold;
+      font-variant: normal;
+      font-size: 20px;
+    }
+
+    .fundinho{
+      top: 0%;
+      left: 0%;
+      height: 100%;
+      width: 100%;
+      position: relative;
+      opacity: 70%;
+    
+    }
+    .div-fund{
+      top: 0%;
+      left: 0%;
+      height: 60%;
+      width: 100%;
+      background-color: #0d4b17;  
+      position: absolute;
+    }
+
+    .quadroum{
+      width: 280px;
+      height: 350px;
+      left: 60px;
+      background-color:   #36ad54b2;
+      border-radius: 12%;
+      display: inline-block;
+      position: absolute;
+      bottom: -600px;
+      box-shadow: 5px 10px 50px #4e4e4e78;
+    }
+
+    
+    .quadrodois{
+      width: 280px;
+      height: 350px;
+      left: 500px;
+      background-color: #36ad54b2;
+      border-radius: 12%;
+      display: inline-block;
+      position: absolute;
+      bottom: -600px;
+      box-shadow: 5px 10px 50px #4e4e4e78;
+    }
+
+    
+    .quadrotres{
+      width: 280px;
+      height: 350px;
+      left: 930px;
+      background-color: #36ad54b2;
+      border-radius: 12%;
+      display: inline-block;
+      position: absolute;
+      bottom: -600px;
+      box-shadow: 5px 10px 50px #4e4e4e78;
+    }
+
+
+    .problematização{
+      width: 900px;
+      height: 350px;
+      left: 70px;
+      top: 30%;
+      background-color: #bbbbbb;
+      border-radius: 12%;
+      display: inline-block;
+      position: relative;
+      box-shadow: 1px 5px 25px #36ad54fa;
+    }
+
+    .problematizaçãoimg{
+      width: 260px;
+      height: 350px;
+      left:  75%;
+      top:   -40%;
+      position: relative;
+      
+    }
+
+    .imgproble{
+      width: 300px;
+      height: 300px;
+      position: relative;
+      left: 7%;
+      top: 20%;
+      
+    }
+
+    .sistemimg{
+      width: 260px;
+      height: 350px;
+      left:  75%;        
+      top:  30%;
+      position: relative;
+      
+    }
+
+    .imgsistem{
+      width: 300px;
+      height: 300px;
+      position: relative;
+      right: 14%;
+      bottom: 1%;
+    }
+
+
+    .propimg{
+      width: 260px;
+      height: 350px;
+      left:  5%;        
+      top:  0%;
+      position: relative;
+      
+    }
+
+    .imgprop{
+      width: 300px;
+      height: 300px;
+      position: relative;
+      right: 14%;
+      bottom: 1%;
+    }
+
+    .intlink{
+      position: relative;
+      top: -10%;
+      left: 0%;
+      width: 50px;
+      height: 50px;
+      
+    }
+    
+   .propostalink{
+      position: relative;
+      top: -39%;
+      left: 0%;
+      width: 50px;
+      height: 50px;
+    
+   }
+
+   .sistemlink{
+    position: relative;
+    top: -1%;
+    left: 0%;
+    width: 50px;
+    height: 50px;
+
+ }
+
+    .proposta{
+      width: 900px;
+      height: 250px;
+      left:   400px;
+      top:    150%;
+      background-color: #bbbbbb;
+      border-radius: 10%;
+      display: inline-block;
+      position: absolute;
+      box-shadow: 1px 5px 25px #36ad54fa;
+    }
+
+
+    .sistem{
+      width: 900px;
+      height: 250px;
+      left: 30px;
+      top: 250%;
+      background-color: #bbbbbb;
+      border-radius: 10%;
+      display: inline-block;
+      position: absolute;
+      box-shadow: 1px 5px 25px   #36ad54fa;
+    }
+
+
+
+    .componente1{
+      width: 350px;
+      height: 120px;
+      right:    950px;
+      bottom: -1620px;
+      background-color: #bbbbbb;
+      border-radius: 12%;
+      display: inline-block;
+      position: absolute;
+      box-shadow: 5px 10px 50px #4e4e4e78;
+    }
+    
+    .componente2{
+      width: 350px;
+      height: 120px;
+      right:    500px;
+      bottom: -1620px;
+      background-color: #bbbbbb;
+      border-radius: 12%;
+      display: inline-block;
+      position: absolute;
+      box-shadow: 5px 10px 50px #4e4e4e78;
+    }
+
+    .componente3{
+      width: 350px;
+      height: 120px;
+      right:    50px;
+      bottom: -1620px;
+      background-color: #bbbbbb;
+      border-radius: 12%;
+      display: inline-block;
+      position: absolute;
+      box-shadow: 5px 10px 50px #4e4e4e78;
+    }
+
+    .descs{
+      position: relative;
+      right:    -3px;
+      bottom:    -20px;
+      font-family:'Poppins-Medium';
+      font-size: 14px;
+      font-style: oblique;
+      font-weight: bold;
+      text-align: center;
+    }
+           
+
+                               /* TEXTs */
+    .textproble{
+      font-size: 0%;
+      font-family:'BebasNeue-Regular';
+      font-size: 50px;
+      font-style: normal;
+      position: relative;
+      text-align: center;
+      font-weight: bold;
+      left:    41%;
+      top:     -20%; 
+    }
+
+    .descproble{
+      font-family: "Poppins-Medium";
+      font-size: 18px;
+      font-style: italic;
+      font-weight: bold;
+      text-shadow: 2px 4px 5px rgb(165, 165, 165);
+      text-align: left;
+      position: relative;
+      right:  -20px;
+      top:     -15%; 
+      width:  850px;
+      height: 750px;
+      line-height: 30px
+    }
+
+    .textoprojeto{
+      font-size: 0%;
+      font-family:'BebasNeue-Regular';
+      font-size: 50px;
+      font-style: normal;
+      position: relative;
+      text-align: center;
+      font-weight: bold;
+      left:    7%;
+      top:    -40%; 
+    }
+
+    .descprojeto{
+      font-family: "Poppins-Medium";
+      font-size: 18px;
+      font-style: italic;
+      font-weight: bold;
+      text-shadow: 2px 4px 5px rgb(165, 165, 165);
+      text-align: left;
+      position: absolute;
+      left:  4%;
+      top:   15%; 
+      width:  850px;
+      height: 750px;
+      line-height: 30px
+    }
+
+
+    .textsistem{
+      font-size: 0%;
+      font-family:'BebasNeue-Regular';
+      font-size: 50px;
+      font-style: normal;
+      position: relative;
+      text-align: center;
+      font-weight: bold;
+      left:    50%;
+      top:    -46%; 
+    }
+
+    .descsistem{
+      font-family: "Poppins-Medium";
+      font-size: 18px;
+      font-style: italic;
+      font-weight: bold;
+      text-shadow: 2px 4px 5px rgb(165, 165, 165);
+      text-align: left;
+      position: absolute;
+      left:  4%;
+      top:   15%; 
+      width:  850px;
+      height: 750px;
+      line-height: 30px
+    }
+
+
+    .textinte{
+      font-size: 0%;
+      font-family:'BebasNeue-Regular';
+      font-size: 50px;
+      font-style: normal;
+      position: absolute;
+      text-align: center;
+      font-weight: bold;
+      left:    39%;
+      top:  8%; 
+     
+    }
+
+
+    .textcompo{
+      font-size: 0%;
+      font-family:'BebasNeue-Regular';
+      font-size: 50px;
+      font-style: oblique;
+      position: relative;
+      text-align: center;
+      font-weight: bold;
+      left:    41%;
+      top:  2000px; 
+    }
+
+    .textinte-01{
+      font-family:'BebasNeue-Regular' ;
+      font-size: 0%;
+      font-size: 30px;
+      font-style: oblique;
+      text-align: center;
+      font-weight: bold;
+      position: relative;
+      bottom: -20px;
+      left: 95px;
+    }
+
+    .textinte-02{
+      font-family:'BebasNeue-Regular' ;
+      font-size: 0%;
+      font-size: 30px;
+      font-style: oblique;
+      text-align: center;
+      font-weight: bold;
+      position: relative;
+      bottom: -20px;
+      left: 95px;
+    }
+
+    .textinte-03{
+      font-family:'BebasNeue-Regular' ;
+      font-size: 0%;
+      font-size: 30px;
+      font-style: oblique;
+      text-align: center;
+      font-weight: bold;
+      position: relative;
+      bottom: -20px;
+      left: 105px;
+    }
+
+    .desc{
+      font-family: "Poppins-Medium";
+      font-size: 13px;
+      font-style: italic;
+      font-weight: bold;
+      text-align-last: center;
+      text-shadow: 2px 4px 5px rgb(77, 77, 77);
+      text-align: center;
+      position: relative;
+      right:  -16px;
+      bottom: -215px; 
+      width:  250px;
+      height: 250px;
+    }
+
+    .fotointe{
+      border-radius: 70%;
+      width:  148px;
+      height: 190px;
+      right:    25%;
+      bottom:   25%;
+      background-color: #ecf6fc;
+      border-radius: 12%;
+      display: inline-block;
+      position: absolute;
+      box-shadow: 5px 10px 50px #61606078;
+    }
+
+    .fotointe2{
+      border-radius: 70%;
+      width:  157px;
+      height: 190px;
+      right:    23%;
+      bottom:   25%;
+      background-color: #ecf6fc;
+      border-radius: 12%;
+      display: inline-block;
+      position: absolute;
+      box-shadow: 5px 10px 50px #61606078;
+
+    }
+
+ 
+/* Linhas */
+
+.linha01{
+  width: 65%;
+  height: 1%;
+  border-radius: 90%;
+  background-color: #0a7a0078;
+  position: relative;
+  top: 8%;
+  left: 0%;
+}
+
+.linha02  {
+  width: 65%;
+  height: 1%;
+  border-radius: 90%;
+  background-color: #0a7a0078;
+  position: relative;
+  top: -30%;
+  left: 35%;
+}
+    
+.linha03  {
+  width: 65%;
+  height: 1%;
+  border-radius: 90%;
+  background-color: #0a7a0078;
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+     /* Roda pé */
+
+     .rodape{
+      width: 1%;
+      height: 3%;
+      left: 0px;
+      bottom: 100%;
+      background-color: #ecf6fc;
+      display: inline-block;
+      position: absolute;
+      box-shadow: 5px 10px 50px #4e4e4e78;
+    }
+     
+
+     
+
+
+    @font-face {
+      font-family:'Poppins-Medium' ;
+      src: url(../font/popos/Poppins-Medium.ttf);
+    }
+
+    @font-face {
+      font-family:'BebasNeue-Regular' ;
+      src: url(../font/bebas/BebasNeue-Regular.ttf);
+    }
+
+    @font-face{
+      font-family:'FredokaOne-Regular';
+      src: url(../font/fredoka/FredokaOne-Regular.ttf)
+    }
